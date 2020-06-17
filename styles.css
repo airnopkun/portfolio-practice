@@ -1,0 +1,119 @@
+* {
+    /*outline: 1px dotted black;*/
+    vertical-align: top;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
+    margin: 0px;
+    padding: 0px;
+    color: #3b3b3b;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+.container {
+    width: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/******************* HEADER AREA **********************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/******************* TOP AREA **********************/
+
+.top-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 15px 30px 15px;
+}
+
+.top2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f2d0;
+    margin: 15px 15px 30px 15px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+/******************* BOTTOM AREA **********************/
+
+p {
+    padding: 15px;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+}
+
+.bottom-section {
+    width: 100%;
+}
+
+.bs {
+    width: 33.33%;
+    background-color: #f5f2d0;
+    margin: 0px 15px auto;
+}
+
+.thumbnail {
+    width: 3em;
+    margin: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.button {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #edd08e;
+    border-radius: .7em;
+    box-shadow: 4px 4px bisque;
+    width: 250px;
+    color: #3b3b3b;
+}
+
+/******************* FOOTER AREA **********************/
+
+.footer {
+    text-align: center;
+}
+
+.icon-area {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+    width: .9em;
+}
